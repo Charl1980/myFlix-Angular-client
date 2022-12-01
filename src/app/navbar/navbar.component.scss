@@ -1,0 +1,23 @@
+$darkBlue: #091833;
+$turquoise: #0abdc6;
+$white: #fff;
+$purple: #711c91;
+$pink: #ea00d9;
+$blue: #133e7c;
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 0 16px;
+  z-index: 99999999;
+  align-items: center;
+  height: 45px;
+  background-color: $white;
+}
+
+.logout-button {
+  color: $white;
+}
