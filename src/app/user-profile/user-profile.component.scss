@@ -1,0 +1,62 @@
+$darkBlue: #091833;
+$turquoise: #0abdc6;
+$white: #fff;
+$purple: #711c91;
+$pink: #ea00d9;
+$blue: #133e7c;
+
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: $darkBlue;
+}
+
+.profile-card {
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px $blue;
+  background-color: $turquoise;
+  justify-content: space-evenly;
+}
+
+.profile-card-header {
+  margin-bottom: 20px;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.profile-actions {
+  justify-content: space-evenly;
+}
+
+.profile-card-content {
+  justify-content: space-evenly;
+}
+
+.form-field {
+  align-items: center;
+  padding: 0 10px;
+}
+
+mat-label {
+  color: $blue;
+}
+
+input.mat-input-element {
+  color: $white;
+}
+
+.mat-card>.mat-card-actions {
+  margin-left: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
