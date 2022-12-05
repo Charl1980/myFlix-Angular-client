@@ -16,6 +16,12 @@ export class WelcomePageComponent implements OnInit {
   }
 
   // This is the function that will open the dialog when the signup button is clicked
+
+  /**
+   * Open the user registration dialog when signup button is clicked
+   * @function openUserRegistrationDialog
+   */
+
   openUserRegistrationDialog(): void {
     this.dialog.open(UserRegistrationFormComponent, {
       // Assigning the dialog a width
@@ -24,6 +30,12 @@ export class WelcomePageComponent implements OnInit {
   }
 
   // This is the function that will open the dialog when the login button is clicked
+
+  /**
+   * Open the user login dialog when signup button is clicked
+   * @function openUserLoginDialog
+   */
+
   openUserLoginDialog(): void {
     this.dialog.open(UserLoginFormComponent, {
       width: '280px'
